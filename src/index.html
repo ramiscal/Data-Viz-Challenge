@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NBC Challenge • IER</title>
+    <meta charset="UTF-8" />
+    
+  </head>
+
+  <body>
+    <div id="map">Ivan Ramiscal • ivanr.com</div>
+
+    <div class="map-overlay" id="features">
+      <h2>NBC Data Viz Challenge<br>Ivan Ramiscal</h2>
+      <h3>US Covid cases per 100K</h3>
+
+      <h2><label id='active-date'></label></h2>
+      <div class='session' id='sliderbar'>
+        <input id='slider' class='row' type='range' min='0' max='107' step='1' value='107' />
+      </div>
+      <p>Move slider for other dates</p>
+      <div id="pd"><p>Hover over states</p></div>
+    </div>
+    
+    </div>
+    <div>
+      <div class="map-overlay" id="legend">
+        <h2><label id='legend-title'>Cases</label></h2>
+      </div>
+    </div>
+  </body>
+  <script src="./index.mjs" type="module"></script>
+</html>
